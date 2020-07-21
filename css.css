@@ -1,0 +1,82 @@
+body {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 10% 38%;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: skyblue;
+    display: inline-flexbox;
+    width: 97%;
+    height: 28px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-size-adjust: initial;
+    margin-bottom: 8px;
+}
+
+img {
+    float: left;
+    height: 19px;
+    width: 30px;
+    padding: 5px;
+}
+
+input {
+    width: 96%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border-width: thin;
+    margin: 4px;
+}
+
+button {
+    border-radius: 3px;
+    border-width: thin;
+    width: 96%;
+    margin: 4px;
+}
+
+#sign {
+    background-color: palegreen;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#facebook {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#google {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#login {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: medium;
+}
+
+input,
+button {
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
